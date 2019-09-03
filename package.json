@@ -1,11 +1,11 @@
 {
-  "name": "redux-handlers",
+  "name": "redux-reducer-handlers",
   "version": "0.1.0",
   "description": "A library for converting Reducer switch statements to a dictionary map of handlers, which are simply callbacks that can directly modify the passed in state.",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./src/**/*.spec.ts",
-    "build": "tsc ./src"
+    "build": "tsc"
   },
   "author": "Aaron Throckmorton",
   "license": "MIT",

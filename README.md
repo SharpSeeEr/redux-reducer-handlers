@@ -1,4 +1,4 @@
-# Redux Handlers
+# Redux Reducer Handlers
 A library for converting Reducer switch statements to a dictionary map of handlers, which are simply callbacks that can directly modify the passed in state.
 
 Instead of defining a Reducer like this:
@@ -54,7 +54,7 @@ In the background `createReducer` uses [immer](https://github.com/immerjs/immer)
 1. Import `createReducer` into your reducers file and use to convert your handlers map object to a reducer:
 
    ``` javascript
-   import createReducer from 'redux-handlers';
+   import createReducer from 'redux-reducer-handlers';
 
    const reducer = createReducer(initialState, handlers)
    ```
