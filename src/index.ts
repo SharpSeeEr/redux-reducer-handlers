@@ -14,3 +14,5 @@ export function createReducer<S = any, A extends Action = AnyAction>(initialStat
     }
   }, initialState);
 }
+
+export default createReducer;
