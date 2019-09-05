@@ -2,7 +2,7 @@
   "name": "redux-reducer-handlers",
   "version": "0.1.0",
   "description": "A library for converting Reducer switch statements to a dictionary map of handlers, which are simply callbacks that can directly modify the passed in state.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha ./src/**/*.spec.ts",
     "build": "tsc"
